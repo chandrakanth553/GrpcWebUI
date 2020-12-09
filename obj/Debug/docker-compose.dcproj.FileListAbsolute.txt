@@ -1,0 +1,14 @@
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\appsettings.Development.json
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\appsettings.json
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\GrpcUI.exe
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\GrpcUI.dll
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\Grpc.Core.Api.dll
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\Google.Protobuf.dll
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\Grpc.AspNetCore.Server.dll
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\Grpc.Net.Common.dll
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\GrpcUI.pdb
+C:\Users\c.thadkapally\source\repos\GrpcUI\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\c.thadkapally\source\repos\GrpcUI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\c.thadkapally\source\repos\GrpcUI\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\Grpc.AspNetCore.Server.Reflection.dll
+C:\Users\c.thadkapally\source\repos\GrpcUI\bin\Debug\Grpc.Reflection.dll

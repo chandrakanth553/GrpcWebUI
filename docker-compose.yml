@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  grpcui:
+    image: ${DOCKER_REGISTRY-}grpcui
+    build:
+      context: .
+      dockerfile: GrpcUI/Dockerfile
+    ports:
+      - "5001:5001"
+  grpcWebui:
+     image: ${DOCKER_REGISTRY-}grpcwebui
+     build:
+        context: .
+        dockerfile: GrpcUI/GrpcUi/Dockerfile
+     depends_on:
+        - grpcui

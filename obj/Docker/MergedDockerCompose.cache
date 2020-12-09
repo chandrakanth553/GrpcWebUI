@@ -1,0 +1,24 @@
+services:
+  grpcWebui:
+    build:
+      context: C:\Users\c.thadkapally\source\repos\GrpcUI
+      dockerfile: GrpcUI/GrpcUi/Dockerfile
+    depends_on:
+    - grpcui
+    image: grpcwebui
+  grpcui:
+    build:
+      context: C:\Users\c.thadkapally\source\repos\GrpcUI
+      dockerfile: GrpcUI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: grpcui
+    ports:
+    - 80/tcp
+    - 443/tcp
+    - 5001:5001/tcp
+    volumes:
+    - C:\Users\c.thadkapally\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\c.thadkapally\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
